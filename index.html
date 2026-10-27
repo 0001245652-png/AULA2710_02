@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cine Dev</title>
+</head>
+<body>
+    <header>
+        <h1>Cine Dev🎥</h1>
+        <p>O lugar onde desenvolvedores organizam filmes, séries e documentários que querem assistir nas horas vagas.</p>
+    </header>
+    <main>
+
+    <section>
+        <h2>Novo filme/série</h2>
+        
+        <form id="form-título">
+            <div>
+                <label for="titulo">Título do Filme/Série:</label>
+                <input type="text" id="titulo" placeholder="Ex: Piratas do Caribe">
+            </div>
+
+            <div>
+            <label for="categoria">Categoria:</label>
+            <select id="categoria">
+                <option value="Ação">Ação</option>
+                <opton value="Ficção Científica">Ficção Científica</option>
+                <option value="Animação">Animação</option>
+                <option value="Documentário">Documentário</option>
+                <option value="Comédia">Comédia</option>
+            </select>
+            </div>
+
+            <button type="submit">Cadastrar Título</button>
+        </form>
+    </section>
+    <hr>
+    <section>
+      <h2>Minhas recomendações</h2>
+      
+      <div id="lista-tarefas">
+        
+        <article>
+          <h3>Vovózona</h3>
+          <p><strong>Categoria:</strong> Coméda</p>
+          <p><strong>Status:</strong>Assistido</p>
+          <button type="button" class="btn-concluir">Marcar como Assistido</button>
+          <button type="button"class="btn-excluir">Excluir</button>
+        </article>
+        <article>
+          <h3>Vingadores</h3>
+          <p><strong>Categoria:</strong> Ação</p>
+          <p><strong>Status:</strong> Pendente</p>
+          <button type="button" class="btn-concluir">Marcar como Assistido</button>
+          <button type="button" class="btn-excluir">Excluir</button>
+        </article>
+
+      </div>
+    </section>
+    </main>
+    <footer>
+        <p>Filmes e Séries para assistir, para desenvolvedores - Cine Dev 2026</p>
+    </footer>
+</body>
+</html>
